@@ -46,4 +46,41 @@ if(somma % 2 == 0 && user_side == `pari`){
 }
 
 
+//CORREZIONE:
+/*
+const playerChoice = `pari`
+const playerNumber = Number(4)
 
+//generiamo un numero random
+function getRandomNumber(min,max) {
+    return Math.floor(Math.random()* (max - min + 1)) + min;
+}
+
+const pcNumber = getRandomNumber(1,5)
+
+//soommiamo i due numeri 
+function sumTwoNumbers(firstNumber,secondNumber) {
+    return firstNumber + secondNumber;
+}
+
+const sum = sumTwoNumbers(playerNumber,pc_number)
+//stabiliamo se è paroi o dispari
+function is_even(numero) {
+    if (numero % 2 == 0){
+        return true
+    }
+    return false
+}
+
+if (is_even(sum)){
+    console.log(`numero pari`);
+} else{
+    console.log(`numero dispari`);
+}
+//dichiariamo chi ha vinto 
+if (is_even(sum) && playerChoice == `pari`){
+    console.log(`you win`,`numero pari`,sum);
+} else if ( !is_even(sum) && playerChoice == `dispari`){
+    console.log(`you win`,`numero pari`,sum);
+}
+*/

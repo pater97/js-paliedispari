@@ -26,3 +26,28 @@ if(user_word == final_word){
     stamp.classList.add(`red`)
     stamp.innerHTML = `mi dispiace, questa parola non è palindrome!`
 }
+
+
+//correzione
+/*
+
+const userWord = `redivider`
+
+function is_palindrom(word){
+    //rigirare la parola 
+    const reverseWord =  word.split(``).reverse().join(``)
+    //capire se è palindroma o meno
+    if(word == reverseWord){
+        return true
+    }
+    return false 
+}
+
+
+if (is_palindrom(user_word)){
+    console.log(`la parola è palindroma`);
+}else {
+    console.log(`la funzione non è palindroma`);
+}
+
+*/
